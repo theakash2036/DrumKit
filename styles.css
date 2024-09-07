@@ -1,0 +1,20 @@
+.drum-kit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.drum-pad {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.drum-pad:hover {
+    background-color: #aaa;
+}
